@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test for Batam</title>
+</head>
+<body>
+
+<link rel="stylesheet" href="assets/style.css">
+
+	<div id="widget" style="display: none">
+		
+		<div id="div-form-widget" style="display: none">
+			<div class="background-main">
+
+				<span onclick="closeForm()" id="btn-close-form">
+					<img id="img-close" src="images/btn-close.png">
+				</span>
+				<font size="5"><b>DO YOU WANT A CALLBACK?</b></font><br>
+				Please give us your details and we will get back to you <br><br>
+
+				<p id="info-message-success">Success submit. Thank you</p>
+				<p id="info-message-error"></p>
+				<input type="text" placeholder="Your Name" id="input-name"> 
+				<input type="text" placeholder="Your Telephone" id="input-telp"> 
+				<input type="text" placeholder="Email" id="input-email">
+				<p align="center">
+					<button type="button" id="btn-call-now" onclick="submitCall()">Call Now</button>
+				</p>
+
+			</div>
+		</div>
+
+		<div id="div-button-widget">
+			<button onclick="openForm()" type="button" class="background-main" id="btn-widget"><img id="img-button" src="images/callus.png">&nbsp;Click here to get a call-back</button>
+		</div>
+
+	</div>
+
+	<div id="div-setting-widget" align="center">
+		<form id="form-setting-widget">
+			<table>
+				<tr>
+					<td>Vertical</td>
+					<td>:</td>
+					<td><input type="radio" name="vertical" value="top" required> top</td>
+					<td><input type="radio" name="vertical" value="bottom" > bottom</td>
+				</tr>
+				<tr>
+					<td>Horizontal</td>
+					<td>:</td>
+					<td><input type="radio" name="horizontal" value="left"> left</td>
+					<td><input type="radio" name="horizontal" value="right" required> right</td>
+				</tr>
+				<tr>
+					<td>Name</td>
+					<td>:</td>
+					<td><input type="radio" name="showName" value="1" required> show</td>
+					<td><input type="radio" name="showName" value="0" > hide</td>
+				</tr>
+				<tr>
+					<td>Phone</td>
+					<td>:</td>
+					<td><input type="radio" name="phone" value="1" required> show</td>
+					<td><input type="radio" name="phone" value="0"> hide</td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td>:</td>
+					<td><input type="radio" name="email" value="1" required> show</td>
+					<td><input type="radio" name="email" value="0"> hide</td>
+				</tr>
+				<tr>
+					<td colspan="4" align="center">
+						<button style="margin-top: 20px" type="submit">Submit</button>
+					</td>
+				</tr>
+			</table>
+		</form>	
+	</div>
+
+	<script src="assets/jquery.min.js"></script>
+	<script src="assets/main.js"></script>
+</body>
+</html>

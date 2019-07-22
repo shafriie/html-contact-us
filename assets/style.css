@@ -1,0 +1,85 @@
+*{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.background-main{
+	background-color: #464787;
+	padding: 15px;
+	color: white;
+	border-radius: 15px;
+	/*cursor: pointer*/
+}
+
+#widget {
+    /*position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+    padding: 5px;*/
+}		
+
+#div-form-widget{
+	width: 400px
+}
+
+#btn-widget{
+	font-weight: bold;
+	font-size: 17px;
+	border: none;
+}
+
+#img-button{
+	width: 20px;
+	margin-bottom: -4px;
+}
+
+#img-close{
+	width: 30px;
+}
+
+#btn-close-form{
+	cursor:pointer;
+	margin-top:-25px;
+	font-weight: bold;
+	right: -0px;
+	position: absolute;
+	padding-right: 7px;
+}
+
+#div-form-widget input, #div-form-widget select{
+	width: 100%;
+	padding: 12px 15px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-size: 15px;
+}
+
+#btn-call-now{
+	padding: 10px;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+#btn-call-now:hover, #btn-widget:hover{
+	cursor: pointer;
+}
+
+#info-message-error{
+	display:none;
+	background-color: #ff666a;
+	padding: 10px
+}
+
+#info-message-success{
+	display:none;
+	background-color: #1faf4a;
+	padding: 10px
+}
+
+#div-setting-widget{
+	margin-top: 8%;
+	margin-left: 38%;
+	border: 1px solid black;
+	padding: 10px;
+	width: 300px
+}
